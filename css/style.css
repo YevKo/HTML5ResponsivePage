@@ -1,0 +1,307 @@
+body, html{
+	font-family: 'Lato', sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	background:#EBE1F5;
+	height:100%;
+	width:100%;
+}
+
+#container{
+	width:100%;
+	height:100%;
+	margin:auto;
+	overflow:auto;
+}
+
+#logo{
+	display:block;
+	margin:auto;
+	width:40%;
+        max-width: 100%;
+}
+
+#header-text{
+	text-align:center;
+	color:#fff;
+	background-color: #7B318F;
+	padding:10px 0 10px 0;
+	margin-bottom:10px;
+}
+
+#content{
+	background: #fff;
+	width:70%;
+	margin:auto;
+	padding:10px 20px;
+}
+
+.shadow
+{
+  position: relative;
+}
+
+.shadow:before, .shadow:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 30%;
+  top: 85%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+
+.shadow:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+p{
+	margin:10px 0;
+	line-height:1.5em;
+}
+
+h1{
+	font-size:35px;
+	font-weight:bold;
+	line-height:1.2em;
+	color:#fff;
+}
+
+h3{
+	font-size:20px;
+	margin:10px 0;
+	color:#6800AD;
+}
+
+h4{
+	font-size:15px;
+	margin:10px 0;
+	font-style: italic;
+	font-weight:bold;
+}
+
+strong{
+	font-weight:bold;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.content-header{
+	border-bottom:#ddd solid 1px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+}
+
+.content-footer{
+	border-top:#ddd solid 1px;
+	margin-bottom:10px;
+	padding-bottom:0px;
+}
+
+#reasons{
+	float:left;
+	width:60%;
+}
+
+#contact{
+	float:right;
+	width:38%;
+}
+
+.points li{
+	margin-bottom:30px;
+}
+
+.points img{
+	float:left;
+	margin-right:7px;
+}
+
+.points h4{
+	padding-top:5px;
+}
+
+#contact-form{
+	padding:10px;
+	border:3px solid #D6B9E8;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	
+	overflow:auto;
+	background:#F5EFF8;
+}
+
+.alert {
+	width:100%;
+	height:20px;
+	color:#3F50D9;
+	font-style:italic;
+	font-weight:1.1em;
+	opacity:0;
+ }
+
+#contact-form div{
+	margin-bottom:10px;
+}
+
+#contact-form label{
+	display:inline-block;
+	width:100px;
+	font-weight:bold;
+	vertical-align:top;
+}
+
+#contact-form input[type='text'],
+#contact-form input[type='email'], 
+#contact-form select,
+#contact-form textarea
+{
+	border:#ccc 1px solid;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	height:30px;
+	width:65%;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#contact-form textarea{
+	resize: none;
+	font-size:1.1em;
+	height:150px;
+}
+
+#contact-form input[type='submit']{
+	padding:10px 17px;
+	color:#6800AD;
+	background:#EBE1F5;
+	border:3px solid #6800AD;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	float:right;
+	display:block;
+	margin-right:10px;
+}
+
+#contact-form input[type='submit']:hover{
+	background:#C48EE8;
+	cursor:pointer;
+}
+
+
+#contact-form select{
+	background:#fff;
+}
+
+em{
+	padding-right:10px;
+	font-size: 0.9em;
+}
+
+#contact-form .content-footer p{
+	font-style:italic;
+	text-align:center;
+	color:#666;
+	font-size:80%;
+}
+
+#testimonial{
+	padding:40px 0;
+	font-style:italic;
+	color:#666;
+}
+
+#testimonial img{
+	display:block;
+	height:auto;
+	float:left;
+	margin-right:20px;
+	opacity: 0.7;
+        filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+footer#main-footer{
+	text-align:center;
+	color:#aaa;
+}
+
+@media(max-width:960px){
+	#container{
+		width:80%;
+	}
+	
+	h1{
+		font-size:30px;
+	}
+	
+	#reasons, #contact{
+		float:none;
+		width:100%;
+	}
+	
+	.points li{
+		background:#EBE1F5;
+		padding:5px 10px;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:10px;
+		margin:10px;
+	}
+	
+	.points img{
+		margin-top:5px;
+	}
+
+	#contact-form input[type='text'],
+	#contact-form input[type='email'], 
+	#contact-form select,
+	#contact-form textarea
+	{
+		width:100%;
+	}
+	
+	#testimonial img{
+		float:none;
+		margin:auto;
+		display:block;
+		margin-bottom:20px;
+		height:80px;
+	}
+}
+
+@media(max-width:568px){
+	h1{
+		font-size:22px;
+	}
+}
+
+@media(min-width:1000px){
+	#testimonial img{
+		margin-bottom:10px;
+		height:80px;
+	}
+}
