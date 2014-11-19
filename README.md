@@ -8,13 +8,16 @@ Hand-coded simple page, contains:
 * Contact form with working "Send email" functionality
 * Testimonials section
 
-## Technologies
+### Technologies
 
--- Email sending: PHP, jQuery and AJAX
--- HTML5, CSS3
+- Email sending: PHP, jQuery and AJAX
+- HTML5, CSS3
 
+### Live version of the page
 
-# Future project
+Online version: http://www.alittlestore.tk/mycontact.php
+
+## The project
 
 This project will grow to the functional online second-hand shop/ads board with:
 
@@ -24,26 +27,20 @@ This project will grow to the functional online second-hand shop/ads board with:
 - Cool add-ons
 - Other useful resources for moms
 
-Website eill be changing its style and functionality as new features added.
- 
-# Updates
+Website will change its style and functionality as new features added.
 
-Created: 19.11.2014
+### Updates
 
-## To do
+Created: 18.11.2014
 
-- Same contact page using Bootstrap technology
+### To do
 
-## Will be done in the main project
-
+- Same contact page using Bootstrap technology (Ready https://github.com/YevKo/BootstrapResponsivePage)
 - Front page
-
 - Sample image (product) gallery with MySql connection
 
 
-# Live version of the website
 
-Online version: http://www.alittlestore.tk/
 
 
   

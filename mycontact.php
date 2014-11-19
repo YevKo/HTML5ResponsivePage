@@ -2,23 +2,21 @@
 <html lang="en">
 	<head>
 		<title>Welcome</title>
-		 <meta charset="UTF-8">
-		<meta name="description" content="Second-hand shop of cheap and brand new children clothes">.
+		<meta charset="UTF-8">
+		<meta name="description" content="Second-hand shop of cheap and brand new children clothes">
 		<meta name="keywords" content="sell baby kid children clothes stuff buy cheap second-hand pregnancy clothes">
 		<meta name="author" content="Yevgeniya Kobrina">
        
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="js/submitContactForm.js" type="text/javascript"></script>
-		<link rel="stylesheet" href="css/reset.css" type="text/css">
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/mycontact.css" type="text/css">
 		
 		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div id="container">
 			<header id="main-header" class="shadow">
+				<div class="ribbon-wrapper"><div class="ribbon-development">Under development</div></div>
 				<img id="logo" src="images/girl.jpg" alt="A Little Shop logo">
 				<div id="header-text">
 				<h1>A Little Shop</h1>
@@ -107,5 +105,8 @@
 				<p>Copyright &copy; 2014</p>
 			</footer>
 		</div><!-- /. container -->
+		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/submitContactForm.js" type="text/javascript"></script>
 	</body>
 </html>
